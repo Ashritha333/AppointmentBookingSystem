@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareSlot – Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">+</span> CareSlot</div>
+    <div>Hello, <strong id="user-name"></strong> <button id="logout" class="link" type="button">Logout</button></div>
+  </header>
+  <main class="grid">
+    <section class="panel">
+      <h2>Book an appointment</h2>
+      <div class="field">
+        <label for="doctor">Doctor</label>
+        <select id="doctor"></select>
+      </div>
+      <div class="field">
+        <label for="date">Date</label>
+        <input id="date" type="date">
+      </div>
+      <label>Available slots</label>
+      <div id="slots" class="slots"><span class="muted">Choose a doctor and date</span></div>
+      <div class="field">
+        <label for="reason">Reason (optional)</label>
+        <input id="reason" placeholder="e.g. Regular check-up">
+      </div>
+      <button id="book" class="primary" type="button" disabled>Confirm booking</button>
+      <p id="book-msg" class="message"></p>
+    </section>
+    <section class="panel">
+      <h2>My appointments</h2>
+      <table class="list">
+        <thead><tr><th>Date</th><th>Time</th><th>Doctor</th><th>Status</th><th></th></tr></thead>
+        <tbody id="appointments"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>
