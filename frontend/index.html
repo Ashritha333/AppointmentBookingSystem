@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareSlot – Appointment Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+  <div class="auth-card">
+    <div class="brand"><span class="logo">+</span> CareSlot</div>
+    <p class="tagline">Book your clinic appointment in under a minute.</p>
+    <div class="tabs">
+      <button id="tab-login" class="tab active" type="button">Login</button>
+      <button id="tab-register" class="tab" type="button">Register</button>
+    </div>
+    <div id="name-row" class="field hidden">
+      <label for="name">Full name</label>
+      <input id="name" placeholder="e.g. Shreya Arun">
+    </div>
+    <div class="field">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="you@example.com">
+    </div>
+    <div class="field">
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="At least 6 characters">
+    </div>
+    <button id="submit" class="primary" type="button">Login</button>
+    <p id="message" class="message"></p>
+  </div>
+  <script src="auth.js"></script>
+</body>
+</html>
