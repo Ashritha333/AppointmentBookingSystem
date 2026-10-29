@@ -3,7 +3,6 @@
 A web application that lets patients register, log in, see free time slots of clinic doctors and book or cancel appointments.
 
 Course: Building Enterprise Applications (BCS703B) – CCA Phase-2
-Team: Shreya Arun (1BY23CS222), Vedika Pande (1BY23CS264)
 
 ## Tech stack
 - Frontend: HTML, CSS, JavaScript
