@@ -2,8 +2,6 @@
 
 A web application that lets patients register, log in, see free time slots of clinic doctors and book or cancel appointments.
 
-Course: Building Enterprise Applications (BCS703B) – CCA Phase-2
-
 ## Tech stack
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js + Express.js (REST API)
